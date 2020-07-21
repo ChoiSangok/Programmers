@@ -20,13 +20,8 @@ class Solution {
 		}
         return str;
     }
-		
-    
 
-	
-	public static void main(String[] args) {
-
-		
+	public static void main(String[] args) {	
 		String[] answer = 	{"sun", "bed", "car"};
 		String[] str = new String[answer.length];
 		
@@ -36,21 +31,13 @@ class Solution {
 		int n=sc.nextInt();
 
 		char ch = 0;
-		
-		
+
 		for(int i=0;i<answer.length;i++) {
-
 			str[i] = answer[i].charAt(n)+answer[i];
-
 		}
-		Arrays.sort(str);
-		
+		Arrays.sort(str);	
 		for(int i=0;i<answer.length;i++) {
 			System.out.println(str[i].substring(1));
 		}
-		
-		
-		
-	
 	}
 }

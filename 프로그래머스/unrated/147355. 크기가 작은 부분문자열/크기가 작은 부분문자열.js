@@ -1,13 +1,19 @@
-function solution(t, p) {
+function lowerString(t, p) {
 
+    let arr = [];
     let count = 0;
 
-    for (let i = 0; i <= t.length - p.length; i++) {
-        if (parseInt(t.substring(i, i + p.length)) <= parseInt(p)) {
-            count++;
-        }
+    for (i = 0; i < t.length; i++) {
+
+        let subStr = t.substring(i, p.length + i);
+        subStr.length === p.length ? arr.push(subStr) : ''
     }
-    console.log(count);
+
+    arr.map(arr => {
+        arr < p ? count += 1 : 0
+    })
 
     return count;
 }
+
+lowerString("3141592", "271");

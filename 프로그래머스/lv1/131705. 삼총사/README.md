@@ -1,4 +1,4 @@
-# [level 1] 삼총사 - 131705  - 냅다 3중포문인데,, 좋은거 생각나면 변경.. 
+# [level 1] 삼총사 - 131705  - 3중포문인데,, 좋은거 생각나면 변경.. 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131705) 
 
